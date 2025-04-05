@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 200.506 s <<< FAILURE! - in TestSuite
+TS001_TC002(com.qa.testcases.TS001)  Time elapsed: 3.92 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [88e90c84-2f17-4faf-8068-e99ea6cf57e7, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 135.0.1, container:hostname: a6cbf506bbff, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 185, moz:profile: /tmp/rust_mozprofileG1vZ7Q, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:containerName: a6cbf506bbff, se:noVncPort: 7900, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 88e90c84-2f17-4faf-8068-e99ea6cf57e7
+	at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+
+TS001_TC002(com.qa.testcases.TS001)  Time elapsed: 32.306 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [88e90c84-2f17-4faf-8068-e99ea6cf57e7, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 135.0.1, container:hostname: a6cbf506bbff, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 185, moz:profile: /tmp/rust_mozprofileG1vZ7Q, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:containerName: a6cbf506bbff, se:noVncPort: 7900, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 88e90c84-2f17-4faf-8068-e99ea6cf57e7
+	at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+
+TS001_TC002(com.qa.testcases.TS001)  Time elapsed: 40.116 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Navigation timed out after 40000 ms
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [88e90c84-2f17-4faf-8068-e99ea6cf57e7, get {url=https://magento.softwaretestingboard.com/customer/account/create/}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 135.0.1, container:hostname: a6cbf506bbff, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 185, moz:profile: /tmp/rust_mozprofileG1vZ7Q, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:containerName: a6cbf506bbff, se:noVncPort: 7900, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 88e90c84-2f17-4faf-8068-e99ea6cf57e7
+	at com.qa.testcases.TS001.TS001_TC002(TS001.java:64)
+
+TS001_TC002(com.qa.testcases.TS001)  Time elapsed: 32.202 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='password-error']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [88e90c84-2f17-4faf-8068-e99ea6cf57e7, findElement {using=xpath, value=//*[@id='password-error']}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 135.0.1, container:hostname: a6cbf506bbff, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 5.15.167.4-microsoft-standa..., moz:processID: 185, moz:profile: /tmp/rust_mozprofileG1vZ7Q, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.3:4444/sessio..., se:containerName: a6cbf506bbff, se:noVncPort: 7900, se:vnc: ws://172.21.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (X11; Linux x86...}
+Session ID: 88e90c84-2f17-4faf-8068-e99ea6cf57e7
+	at com.qa.testcases.TS001.TS001_TC002(TS001.java:72)
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.qa.listeners.Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Test2(failed)" verbose="0">
+    <parameter name="author" value="Amit"/>
+    <parameter name="browser" value="firefox"/>
+    <parameter name="device" value="linux"/>
+    <classes>
+      <class name="com.qa.testcases.TS001">
+        <methods>
+          <include name="TS001_TC002" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.qa.testcases.TS001 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
