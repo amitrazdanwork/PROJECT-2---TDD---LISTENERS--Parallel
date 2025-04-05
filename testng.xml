@@ -9,7 +9,7 @@
 	<test name="Test1">
 
 		<parameter name="browser" value="chrome" />
-		<parameter name="author" value="Amit" />
+		<parameter name="author" value="Rishabh" />
 		<parameter name="device" value="linux" />
 
 		<classes>
